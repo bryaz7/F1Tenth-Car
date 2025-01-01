@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find bryan_roslab)/rviz/display_lidar.rviz" />
+    <node pkg="bryan_roslab" type="lidar_2.py" name="lidar_2" ns="lidar_2" />
+</launch>
